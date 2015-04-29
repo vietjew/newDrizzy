@@ -20,5 +20,8 @@
   "bugs": {
     "url": "https://github.com/vietjew/newDrizzy/issues"
   },
-  "homepage": "https://github.com/vietjew/newDrizzy"
+  "homepage": "https://github.com/vietjew/newDrizzy",
+  "dependencies": {
+    "twit": "^1.1.20"
+  }
 }

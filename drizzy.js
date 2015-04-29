@@ -1,4 +1,3 @@
-console.log(process.env.DRIZZY_TWIT_CONSUMER_KEY);
 console.log("New Drizzy is running!");
 var Twit = require('twit');
 
@@ -22,7 +21,7 @@ function replyToTweet(tweetId, username, message) {
 	});
 }
 
-function doStuffTo(tweet) {
+function drizzyReply(tweet) {
 	console.log(tweet);
 	var message = createTweet();
 	var tweetIdStr = tweet.id_str;
@@ -33,6 +32,5 @@ function doStuffTo(tweet) {
 var stream = T.stream('statuses/filter', {track: "@DrizzyAI"});
 
 stream.on('tweet', function (tweet){
-	doStuffTo(tweet);
+	drizzyReply(tweet);
 })
-
