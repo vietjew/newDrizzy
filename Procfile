@@ -1,1 +1,1 @@
-web: node drizzy.js
+web: node drizzy.js -p $PORT
