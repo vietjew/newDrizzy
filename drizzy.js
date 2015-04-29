@@ -24,4 +24,14 @@ function getUserLastTweet(username, callback) {
 	});
 }
 
-getUserLastTweet('vietjew', function(tweet){console.log(tweet);});
+// var joesLast = getUserLastTweet('vietjew', function(tweet){return tweet});
+
+
+function getJoesLastTweet(callback) {
+	getUserLastTweet('vietjew', function(tweet){
+		callback(tweet);
+	});
+}
+
+
+getJoesLastTweet(function(tweet){console.log(tweet);});
