@@ -1,3 +1,4 @@
+console.log(process.env.DRIZZY_TWIT_CONSUMER_KEY);
 console.log("New Drizzy is running!");
 var Twit = require('twit');
 

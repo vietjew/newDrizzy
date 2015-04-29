@@ -1,0 +1,24 @@
+{
+  "name": "newDrizzy",
+  "version": "0.1.0",
+  "description": "AI Drake Twitter Bot",
+  "main": "drizzy.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/vietjew/newDrizzy.git"
+  },
+  "keywords": [
+    "drake",
+    "twitter",
+    "bot"
+  ],
+  "author": "Joe Nguyen",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/vietjew/newDrizzy/issues"
+  },
+  "homepage": "https://github.com/vietjew/newDrizzy"
+}
