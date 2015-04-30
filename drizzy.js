@@ -3,7 +3,8 @@ var Twit = require('twit');
 var express = require('express');
 var app = express();
 
-app.set('port', (process.env.PORT || 5000));
+var port = process.env.PORT || 3000;
+app.listen(port);
 
 var T = new Twit(require('./config.js'));
 
