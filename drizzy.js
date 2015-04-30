@@ -20,7 +20,7 @@ var createTweet = function() {
 }
 
 function replyToTweet(tweetId, username, message) {
-	T.post('statuses/update', {in_reply_to_status_id: tweetId, status: '@' + username + ' ' + message},
+	T.post('statuses/update', {in_reply_to_status_id: tweetId, status: '.@' + username + ' ' + message},
 	function(err, data, response){
 		console.log(data);
 	});
