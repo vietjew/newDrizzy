@@ -3,7 +3,7 @@ var Twit = require('twit');
 var express = require('express');
 var app = express();
 app.get('/', function (req, res) {
-  res.send('Hello World!');
+  res.send("Hello friends! See what we're up to at <a href='https://twitter.com/DrizzyAI'>Drizzy Drake's Twitter</a>.");
 });
 var port = process.env.PORT || 3000;
 app.listen(port);
